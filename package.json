@@ -1,9 +1,9 @@
 {
-  "name": "llc-virtual-scroll",
-  "version": "0.0.1",
-  "main":"./dist/virtual-scroll.umd.cjs",
+  "name": "llc-virtual-scroll1",
+  "version": "0.0.4",
+  "main":"./dist/virtual-scroll.umd.js",
   "types": "./dist/virtual-scroll.d.ts",
-  "typings": "./dist/virtual-scroll.js",
+  "typings": "./dist/virtual-scroll.d.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
