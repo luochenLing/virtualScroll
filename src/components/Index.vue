@@ -20,6 +20,10 @@ type IdataSet = {
   address: string;
 }[];
 
+defineOptions({
+  name:'llc-virtual-scroll'
+})
+
 const props = defineProps({
   dataSet: {
     type: Array as PropType<IdataSet>,
