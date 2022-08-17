@@ -1,6 +1,6 @@
 {
   "name": "llc-virtual-scroll1",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "main":"./dist/virtual-scroll.umd.js",
   "types": "./dist/virtual-scroll.d.ts",
   "typings": "./dist/virtual-scroll.d.js",

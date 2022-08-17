@@ -31,11 +31,11 @@ export default defineConfig({
           vue: "vue",
         },
       },
-      plugins: [
-        externalGlobals({
-          vue: "Vue",
-        }),
-      ],
+      // plugins: [
+      //   externalGlobals({
+      //     vue: "Vue",
+      //   }),
+      // ],
     },
   },
   css: {
