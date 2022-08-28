@@ -128,7 +128,7 @@ const contentBlankHeight = computed(() => {
  */
 const getItemLength = () => {
   let itemHeight = itemRef.value ? itemRef.value[0]?.offsetHeight : 100; //默认项的高度是100PX
-  data.itemCount = ~~(scrollRef.value.offsetHeight / itemHeight) + 2; //默认项的高度是100PX
+  data.itemCount = ~~(scrollRef.value.offsetHeight / itemHeight) + 2; //默认项的高度是100PX，一共一页显示几个
 };
 
 /**
